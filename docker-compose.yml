@@ -42,8 +42,8 @@ services:
   # .NET Core API
   api:
     build:
-      context: ./backend/IDotAPI
-      dockerfile: Dockerfile
+      context: ./backend
+      dockerfile: IDotAPI/Dockerfile
     container_name: ido-api
     ports:
       - "5000:5000"
@@ -59,8 +59,6 @@ services:
         # condition: service_healthy
     networks:
       - ido-network
-    volumes:
-      - ./backend/IDotAPI:/app
 
   # React Frontend
   frontend:
