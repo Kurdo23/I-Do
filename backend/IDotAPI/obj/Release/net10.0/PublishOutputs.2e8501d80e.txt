@@ -1,0 +1,9 @@
+C:\temp\I-Do\backend\IDotAPI\publish\IDotAPI.exe
+C:\temp\I-Do\backend\IDotAPI\publish\appsettings.Development.json
+C:\temp\I-Do\backend\IDotAPI\publish\appsettings.json
+C:\temp\I-Do\backend\IDotAPI\publish\IDotAPI.dll
+C:\temp\I-Do\backend\IDotAPI\publish\IDotAPI.deps.json
+C:\temp\I-Do\backend\IDotAPI\publish\IDotAPI.runtimeconfig.json
+C:\temp\I-Do\backend\IDotAPI\publish\IDotAPI.pdb
+C:\temp\I-Do\backend\IDotAPI\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\temp\I-Do\backend\IDotAPI\publish\Microsoft.OpenApi.dll

@@ -11,9 +11,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("IDotAPI")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2133b83cb78ff58b586f73ab37b83dd51feff2b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c330e7d3e0240179017f541927f15f6c4b624de8")]
 [assembly: System.Reflection.AssemblyProductAttribute("IDotAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IDotAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
