@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddControllers();
+builder.Services.AddControllers(); // Pour rajouter les controllers
 
 var app = builder.Build();
 
@@ -13,7 +13,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.MapScalarApiReference();
+    app.MapScalarApiReference(); // Pour rajouter Scalar API
 }
 
 app.UseHttpsRedirection();
@@ -37,7 +37,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-app.MapControllers();
+app.MapControllers(); // Pour rajouter les controllers
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
